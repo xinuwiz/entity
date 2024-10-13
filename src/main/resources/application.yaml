@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: entity
+  redis:
+    host: localhost
+    port: 6379
+    password: password
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: password
+  hibernate:
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+
+logging:
